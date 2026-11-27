@@ -1,1 +1,7 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="pxt-on-start" id="3zEq)iUlu1@U8Ts}(Ve+" x="20" y="20"></block><block type="device_forever" id="ZhXqx9w?basZ7?r=+AwL" x="225" y="20"></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="o4ZQ+;+g$[6jW}(rf@j?">start</variable></variables><block type="pxt-on-start" id="K#p:r^t}^2?QetoKXR.6" x="20" y="20"><statement name="HANDLER"><block type="sensors_setlightflux" id="3)HS[WO4tr]X]/)rt1MH"><next><block type="typescript_statement" id="Sak=IRbb[RXa[zvSxQQ|"><mutation xmlns="http://www.w3.org/1999/xhtml" line0="let start: number" numlines="1" declaredvars="start"></mutation><next><block type="variables_set" id="Kb~(uxdGhOf]4k-d1syN"><field name="VAR" id="o4ZQ+;+g$[6jW}(rf@j?">start</field><value name="VALUE"><shadow type="math_number" id="|:{qfcq|0}}dq*9/:9DX"><field name="NUM">0</field></shadow><block type="control_running_time" id="$XCm|5Pca^UOP]3wDg4_"></block></value></block></next></block></next></block></statement></block><block type="device_button_event" id="!cxL#B@+RCtSi.|08BF7" x="371" y="20"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="hmkKr=_I}@jSZeG8=64H"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field></block></statement></block><block type="device_forever" id="2@3Mgg8@%TDA+N5yHSpw" x="634" y="20"></block><block type="sensors_onLightDrop" id="hAr{OmdJ7woeC7x#@jy]" x="20" y="370"></block></xml>
